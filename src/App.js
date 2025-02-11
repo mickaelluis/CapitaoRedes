@@ -5,7 +5,7 @@ import theme from './styles/theme/theme.ts';
 import { BrowserRouter } from "react-router-dom";
 const App = () => {
     return (
-    <BrowserRouter>
+    <BrowserRouter basename="/CapitaoRedes">
         <ChakraProvider theme={theme}>
             <AppRoutes />
         </ChakraProvider>
