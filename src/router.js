@@ -4,7 +4,7 @@ import Home from './screens/Home.tsx';
 
 
 const AppRoutes = () => (       
-    <Routes>
+    <Routes >
         <Route path="/" element={<Home />} />       
     </Routes>
 );

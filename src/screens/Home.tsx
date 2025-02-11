@@ -10,25 +10,60 @@ import {
     useColorModeValue,
     createIcon,
     Link,
+    Flex,
+    Image,
   } from '@chakra-ui/react'
+
+
+  import YoutubeIcon from '../assets/images/youtube.svg';
+
+  import TiktokIcon from '../assets/images/tik-tok.svg';
+
+  import twitchIcon from '../assets/images/twitch.svg';
+
+
 
 
 export default function Home() {
     return(
-    <>
-        <Container maxW={'3xl'}>
+            <>
+        <Container maxW={'3xl'}  >
             <Stack as={Box}
           textAlign={'center'}
           spacing={{ base: 8, md: 14 }}
-          py={{ base: 20, md: 36 }}>
-                <Heading fontWeight={600}
-            fontSize={{ base: '2xl', sm: '4xl', md: '6xl' }}
-            lineHeight={'110%'}>
-                    welcome <br />
-                    <Text as={'span'} color={'green.400'}>
-                    Notes.com
+          py={{ base: 20, md: 36 }} alignItems={'center'} >
+                <Box bg='tomato' w='30rem' h={'50rem'} p={4} color='white' borderRadius={'100px'}   >
+                    <Text fontSize={'6xl'} padding={'2rem 0 0 0'}>
+                        @Capitão
                     </Text>
-                </Heading>
+                    
+                    <Flex flexDirection={'column'} padding={'10em 5rem 0 5rem'}  gap='2'>
+                             
+                        <Button as="a"  href="https://www.youtube.com/@capitao2729" leftIcon={<Image src={YoutubeIcon} boxSize="30px" />} colorScheme="red"  >
+                            <Text fontSize={'4xl'}>
+                                Youtube 
+                            </Text>
+                        </Button>
+
+                        
+                        <Button as="a" href="https://www.tiktok.com/@capita_o"  leftIcon={<Image src={TiktokIcon} boxSize="30px" />}  bg="black" _hover={{ bg: "gray.800" }} >
+                            <Text fontSize={'4xl'}>
+                                Tiktok
+                            </Text>
+                        </Button>
+                        
+
+                        <Button as="a" href="https://www.twitch.tv/lcapitaoj" leftIcon={<Image src={twitchIcon} boxSize="30px" />} colorScheme="purple"  >
+                            <Text fontSize={'4xl'}>
+                                Twitch
+                            </Text>
+                        </Button>
+                        
+                        <Text>
+                            Se inscreva em todos meus canais, 
+                        </Text>
+                    </Flex>
+                </Box>
             </Stack>
         </Container>
     </>
