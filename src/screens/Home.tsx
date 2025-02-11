@@ -16,9 +16,7 @@ import {
 
 
   import YoutubeIcon from '../assets/images/youtube.svg';
-
   import TiktokIcon from '../assets/images/tik-tok.svg';
-
   import twitchIcon from '../assets/images/twitch.svg';
   import discordIcon from '../assets/images/discord.svg';
 
