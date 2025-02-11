@@ -2,7 +2,7 @@
   "homepage": "https://mickaelluis.github.io/CapitaoRedes",
   "name": "javacript_note",
   "version": "0.1.0",
-  "private": true,
+  "private": true,  
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@chakra-ui/icons": "^2.2.4",
