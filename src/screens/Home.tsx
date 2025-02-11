@@ -38,27 +38,27 @@ export default function Home() {
                     
                     <Flex flexDirection={'column'} padding={'10em 5rem 0 5rem'}  gap='2'>
                              
-                        <Button as="a"  href="https://www.youtube.com/@capitao2729" leftIcon={<Image src={YoutubeIcon} boxSize="30px" />} colorScheme="red"  >
+                        <Button as="a"  href="https://www.youtube.com/@capitao2729" leftIcon={<Image src={YoutubeIcon} boxSize="30px"  sx={{ filter: "brightness(0) invert(1)"}} />} colorScheme="red"  >
                             <Text fontSize={'4xl'}>
                                 Youtube 
                             </Text>
-                        </Button>
+                        </Button>   
 
                         
-                        <Button as="a" href="https://www.tiktok.com/@capita_o"  leftIcon={<Image src={TiktokIcon} boxSize="30px" />}  bg="black" _hover={{ bg: "gray.800" }} >
+                        <Button as="a" href="https://www.tiktok.com/@capita_o"  leftIcon={<Image src={TiktokIcon} boxSize="30px"  sx={{ filter: "brightness(0) invert(1)"}} />}  bg="black" _hover={{ bg: "gray.800" }} >
                             <Text fontSize={'4xl'}>
                                 Tiktok
                             </Text>
                         </Button>
                         
 
-                        <Button as="a" href="https://www.twitch.tv/lcapitaoj" leftIcon={<Image src={twitchIcon} boxSize="30px" />} colorScheme="purple"  >
+                        <Button as="a" href="https://www.twitch.tv/lcapitaoj" leftIcon={<Image src={twitchIcon} boxSize="30px" sx={{ filter: "brightness(0) invert(1)"}} />} colorScheme="purple"  >
                             <Text fontSize={'4xl'}>
                                 Twitch
                             </Text>
                         </Button>
 
-                        <Button as="a" href="https://discord.gg/TRb8KEBRUx" leftIcon={<Image src={discordIcon} boxSize="30px" />} bg='#2B2BE0'  _hover={{bg:'#1B51E0'}}  >
+                        <Button as="a" href="https://discord.gg/TRb8KEBRUx" leftIcon={<Image src={discordIcon} boxSize="30px" sx={{ filter: "brightness(0) invert(1)"}} />} bg='#2B2BE0'  _hover={{bg:'#1B51E0'}}  >
                             <Text fontSize={'4xl'}>
                                 Discord
                             </Text>
