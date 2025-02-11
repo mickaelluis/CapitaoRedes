@@ -20,6 +20,7 @@ import {
   import TiktokIcon from '../assets/images/tik-tok.svg';
 
   import twitchIcon from '../assets/images/twitch.svg';
+  import discordIcon from '../assets/images/discord.svg';
 
 
 
@@ -56,6 +57,12 @@ export default function Home() {
                         <Button as="a" href="https://www.twitch.tv/lcapitaoj" leftIcon={<Image src={twitchIcon} boxSize="30px" />} colorScheme="purple"  >
                             <Text fontSize={'4xl'}>
                                 Twitch
+                            </Text>
+                        </Button>
+
+                        <Button as="a" href="https://discord.gg/TRb8KEBRUx" leftIcon={<Image src={discordIcon} boxSize="30px" />} bg='#2B2BE0'  _hover={{bg:'#1B51E0'}}  >
+                            <Text fontSize={'4xl'}>
+                                Discord
                             </Text>
                         </Button>
                         
