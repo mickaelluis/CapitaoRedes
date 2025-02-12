@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/CapitaoRedes/static/css/main.e6c13ad2.css",
-    "main.js": "/CapitaoRedes/static/js/main.eb8ba55b.js",
+    "main.js": "/CapitaoRedes/static/js/main.d35b7ceb.js",
     "static/js/488.39734ab5.chunk.js": "/CapitaoRedes/static/js/488.39734ab5.chunk.js",
     "static/media/Avatar.jpeg": "/CapitaoRedes/static/media/Avatar.569ffca12378d228dad8.jpeg",
     "static/media/discord.svg": "/CapitaoRedes/static/media/discord.97a9d1e47f711dece166699086d53416.svg",
@@ -10,11 +10,11 @@
     "static/media/twitch.svg": "/CapitaoRedes/static/media/twitch.ea788d7e208ce88f284edbd3bd02c336.svg",
     "index.html": "/CapitaoRedes/index.html",
     "main.e6c13ad2.css.map": "/CapitaoRedes/static/css/main.e6c13ad2.css.map",
-    "main.eb8ba55b.js.map": "/CapitaoRedes/static/js/main.eb8ba55b.js.map",
+    "main.d35b7ceb.js.map": "/CapitaoRedes/static/js/main.d35b7ceb.js.map",
     "488.39734ab5.chunk.js.map": "/CapitaoRedes/static/js/488.39734ab5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.eb8ba55b.js"
+    "static/js/main.d35b7ceb.js"
   ]
 }
