@@ -29,7 +29,7 @@ export default function Home() {
           textAlign={'center'}
           spacing={{ base: 8, md: 14 }}
           py={{ base: '12rem', md: 36 }} alignItems={'center'} >
-                <Box bg='tomato'  p={4} color='white' borderRadius={'50px'} w={{ base: "75%", md: "26em", lg: "22em" }}  h={{ base: "10%", md: "35em", lg: "35em" }} mt="-7rem" >
+                <Box bg='tomato'  p={4} color='white' borderRadius={'50px'} w={{ base: "100%", md: "26em", lg: "22em" }}  h={{ base: "10%", md: "35em", lg: "35em" }} mt="-7rem" >
                     <Text fontSize={{ base: "2.5em", md: "2.5em", lg: "2em" }} padding={'2rem 0 0 0'}>
                         @Capitão
                     </Text>
