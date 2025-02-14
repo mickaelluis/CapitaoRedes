@@ -4,7 +4,7 @@ import { ChakraProvider } from '@chakra-ui/react';
 import theme from './styles/theme/theme.ts';
 import { BrowserRouter } from "react-router-dom";
 const App = () => {
-    return (
+    return (  
     <BrowserRouter basename="/CapitaoRedes">
         <ChakraProvider theme={theme}>
             <AppRoutes />
